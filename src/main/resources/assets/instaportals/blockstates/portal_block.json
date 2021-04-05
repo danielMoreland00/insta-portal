@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "instaportals:block/portal_block"
+		}
+	}
+}
