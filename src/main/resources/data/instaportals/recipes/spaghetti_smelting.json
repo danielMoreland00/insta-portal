@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "minecraft:wheat"
+	},
+	"result": "instaportals:spaghetti",
+	"experience": 0.35,
+	"cookingtime": 200
+}
