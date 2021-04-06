@@ -16,7 +16,8 @@ public class InstaPortals implements ModInitializer {
 
 	public static final Item TELEPORT_ORB = new Item(new Item.Settings().group(ItemGroup.MISC));
 
-	public static final Block PORTAL_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).strength(5.0F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
+	public static final Block PORTAL_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).strength(1.5F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
+	public static final Block ORITE_ORE_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).strength(3.0F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
 	
 	public static final Item SPAGHETTI = new Item(new Item.Settings().group(ItemGroup.FOOD).food(Spaghetti.SPAGHETTI));
 
@@ -25,6 +26,8 @@ public class InstaPortals implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("instaportals", "teleport_orb"), TELEPORT_ORB);
 		Registry.register(Registry.BLOCK, new Identifier("instaportals", "portal_block"), PORTAL_BLOCK);
 		Registry.register(Registry.ITEM, new Identifier("instaportals", "portal_block"), new BlockItem(PORTAL_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+		Registry.register(Registry.BLOCK, new Identifier("instaportals", "orite_ore_block"), ORITE_ORE_BLOCK);
+		Registry.register(Registry.ITEM, new Identifier("instaportals", "orite_ore_block"), new BlockItem(ORITE_ORE_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
 		Registry.register(Registry.ITEM, new Identifier("instaportals", "spaghetti"), SPAGHETTI);
 	}
 }

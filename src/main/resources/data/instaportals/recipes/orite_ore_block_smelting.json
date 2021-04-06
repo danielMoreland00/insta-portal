@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "instaportals:orite_ore_block"
+	},
+	"result": "instaportals:teleport_orb",
+	"experience": 0.2,
+	"cookingtime": 200
+}
