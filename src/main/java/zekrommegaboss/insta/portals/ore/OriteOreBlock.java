@@ -1,10 +1,9 @@
-package zekrommegaboss.insta.portals;
+package zekrommegaboss.insta.portals.ore;
 
 import java.util.Random;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.ItemStack;
@@ -16,7 +15,6 @@ public class OriteOreBlock extends Block{
 
 	public OriteOreBlock(Settings settings) {
 		super(settings);
-		//TODO Auto-generated constructor stub
 	}
 	
 	protected int getExperienceWhenMined(Random random) {
